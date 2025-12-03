@@ -1,0 +1,31 @@
+@import "tailwindcss";
+body{
+    font-family: "Stack Sans Text", sans-serif;
+    overflow-x: hidden;
+}
+.HeroSectionName{
+    font-family: Arial, Helvetica, sans-serif;
+}
+input::placeholder{
+    font-size: .75em;
+}
+.CartCount{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(54, 74, 84);
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 700;
+    color:white ;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
+    position: absolute;
+    left: 13px;
+    top: -10px;
+}
+.description-cartDetails{
+    font-weight: 600;
+}
